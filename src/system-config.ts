@@ -45,7 +45,8 @@ System.config({
   map: {
     '@angular': 'vendor/@angular',
     'rxjs': 'vendor/rxjs',
-    'main': 'main.js'
+    'main': 'main.js',
+    'avoscloud-sdk': 'vendor/avoscloud-sdk/dist/av.js'
   },
   packages: cliSystemConfigPackages
 });
