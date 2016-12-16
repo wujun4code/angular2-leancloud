@@ -1,9 +1,11 @@
-export class Angular2CliTestAppPage {
+import { browser, element, by } from 'protractor';
+
+export class Angular2LeanEnginePage {
   navigateTo() {
     return browser.get('/');
   }
 
   getParagraphText() {
-    return element(by.css('angular2-cli-test-app-app h1')).getText();
+    return element(by.css('app-root h1')).getText();
   }
 }
